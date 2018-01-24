@@ -1,0 +1,150 @@
+@media(max-width: 768px) {
+	.logo{
+		display: none;
+	}
+	html,body{
+		background-color: #fff;
+	}
+	.main{
+		box-shadow: none;
+		margin: 0 auto;
+	}
+}
+
+
+
+HTML,body{
+    height: 100%;
+    background-color: #f1f1f1 !important;
+}
+.sign{
+    /*定位属性放在最上面*/
+    /*先写盒子模型的*/
+    height: 100%;
+    /*min-height: 750px;*/
+    /*然后写文本*/
+    font-size: 14px;
+    /*background-color: #f1f1f1;*/
+    text-align: center;
+    /*最后写用户信息内容*/
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.logo img{
+    height: 100px;
+}
+.main{
+    width: 400px;
+    margin: 50px auto 0;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: inline-block;
+    background-color: #fff;
+    padding: 50px 50px 30px;
+}
+.main .title{
+    margin: 0 auto 50px;
+    padding: 10px;
+    color: #969696;
+}
+.main .title h4{
+    margin: 0;
+    font-size: 18px;
+}
+.main .title h4 a,.main .title h4 b{
+    text-align: center;
+    padding: 10px;
+}
+.main .title h4 a.active{
+    font-weight: bold;
+    color: #ea6f5a!important;
+	border-bottom: 2px solid #ea6f5a;
+}
+.main .title h4 a:hover{
+	border-bottom: 2px solid #ea6f5a;
+}
+.main form{
+	margin: 0 0 30px;
+	overflow: hidden;
+	zoom: 1;
+}
+.main form .input-prepend{
+	position: relative;
+	width: 100%;
+}
+.main form .input-prepend input{
+	width: 100%;
+	height: 50px;
+	padding: 4px 12px 4px 35px;
+	border: 1px solid #c8c8c8;
+	outline: none;
+	color: rgba(0,0,0,.85);
+}
+.main form .input-prepend input::-webkit-input-placeholder{
+	color: rgba(0,0,0,.35);
+}
+.main form div i{
+	position: absolute;
+	left: 12px;
+	top: 15px;
+	font-size: 20px;
+	color: rgba(0,0,0,.35);
+}
+.main form .remember{
+	float: left;
+	margin: 20px 0;
+}
+.main form .help{
+	float: right;
+	margin: 20px 0;
+}
+.main form>input{
+	width: 100%;
+	display: block;
+	border-radius: 20px;
+}
+.main .more-sign span{
+	font-size: 14px;
+	color: rgba(0,0,0,.40);
+}
+.main .more-sign ul{
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+.main .more-sign ul li{
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.main .more-sign ul li:nth-of-type(1){
+	background-color: #e05244;
+}
+.main .more-sign ul li:nth-of-type(2){
+	background-color: #00bb29;
+}
+.main .more-sign ul li:nth-of-type(3){
+	background-color: #498ad5;
+}
+.main .more-sign ul li:nth-of-type(4){
+	background-color: rgba(0,0,0,.05);
+}
+.main .more-sign ul li a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+}
+.main .more-sign ul li a .white{
+	color: white;
+}
+.send-ssm{
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	border-radius: 20px!important;
+	color: white!important;
+}
