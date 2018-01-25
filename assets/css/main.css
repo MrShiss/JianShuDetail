@@ -1,3 +1,16 @@
+*{
+	box-sizing: border-box;
+
+}
+html,body{
+	height: 100%;
+	background: #fff;
+	color: #333;
+}
+#default-template{
+	height: 100%;
+	background-color: #fff;
+}
 a,a:hover,a:focus{
     text-decoration: none!important;
     color: initial!important;

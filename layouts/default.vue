@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="default-template">
     <nuxt/>
   </div>
 </template>
@@ -14,6 +14,6 @@
 }
 </script>
 
-<style>
-
+<style scoped>
+	
 </style>

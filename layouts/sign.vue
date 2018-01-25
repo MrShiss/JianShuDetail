@@ -1,5 +1,5 @@
 <template>
-    <div style="height: 100%">
+    <div>
         <nuxt/>
     </div>
 </template>
@@ -14,6 +14,10 @@
     }
 </script>
 
-<style>
-
+<style scoped>
+	div{
+		height: 100%;
+		background-color: #f1f1f1!important;
+	}
+	
 </style>
