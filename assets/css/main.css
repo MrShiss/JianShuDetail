@@ -1,3 +1,4 @@
+/*****************************公共样式*****************************/
 * {
 	box-sizing:border-box;
 }
@@ -8,6 +9,7 @@ html,body {
 }
 #__nuxt {
 	height:100%;
+	overflow-x: hidden;
 }
 #sign-template {
 	height:100%;
@@ -54,3 +56,27 @@ img{
 		width: 750px!important;
 	}
 }
+
+/*****************************首页布局*******************************/
+.index{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+.index .main{
+	padding-right: 0;
+}
+.index .main *:focus{
+	boder: none!important;
+}
+.index .aside{
+	padding: 0 0 0 4.16667%;
+}
+.index .aside .board{
+	margin-top: -4px;
+}
+.index .aside .board img{
+	width: 100%;
+	margin-bottom: 6px;
+}
+/*****************************文章页面布局*****************************/
+/*****************************其他*****************************/
