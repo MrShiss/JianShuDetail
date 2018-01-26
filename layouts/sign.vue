@@ -16,7 +16,7 @@
 
 <style scoped>
 	div{
-		height: 100%;
+		height: 700px;
 		background-color: #f1f1f1!important;
 	}
 	

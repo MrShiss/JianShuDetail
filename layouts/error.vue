@@ -6,7 +6,7 @@
 			</nuxt-link>
 		</div>
     <div class="content" v-if="error.statusCode == 404">
-    	<img width="30%" src="../assets/img/error.jpg" alt="" />
+    	<img class="content-img" width="30%" src="../assets/img/error.jpg" alt="" />
     	<h3>您要找的页面可能还在火星</h3>
     	<p>可能是因为您的链接地址有误、该文章已经被作者删除或转为私密状态。</p>
     </div>
@@ -25,12 +25,15 @@ export default {
 	.container{
 		text-align: center;
 	}
+	.content-img{
+		margin-left: 40%;
+	}
 	.content h3,p{
 		padding-top: 20px;
 	}
 	.content p{
 		color: rgba(0,0,0,.35);
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 	@media (max-width: 768px) {
 		.logo{
